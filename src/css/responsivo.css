@@ -1,0 +1,230 @@
+/*@media (max-width: 1200px) {
+    header {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #inicio, #clinica, #farmacia, #duvidas {
+        padding: 64px 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px;
+    }
+
+    header nav a {
+        padding: 16px;
+    }
+
+    #inicio, #clinica, #duvidas {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    #clinica li {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #inicio, #clinica, #farmacia, #duvidas {
+        padding: 64px 20px;
+    }
+
+    .botao, .botao-transparente {
+        padding: 12px 24px;
+    }
+
+    .duvida strong {
+        padding: 16px;
+    }
+
+    .duvida img {
+        top: 16px;
+        right: 16px;
+    }
+
+    .duvida .paragrafo {
+        padding: 16px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 32px;
+        padding: 32px 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1, h2 {
+        font-size: 24px;
+    }
+
+    .paragrafo {
+        font-size: 14px;
+    }
+
+    .botao, .botao-transparente {
+        padding: 8px 16px;
+    }
+
+    .duvida strong {
+        padding: 12px;
+    }
+
+    footer {
+        gap: 16px;
+    }
+
+    footer p {
+        max-width: 100%;
+    }
+}*/
+
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    header {
+        padding: 24px 40px;
+    }
+
+    #clinica, #farmacia, #duvidas {
+        padding: 64px 40px;
+    }
+
+    .botao, .botao-transparente {
+        padding: 12px 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px 20px;
+    }
+
+    header nav a {
+        padding: 16px;
+    }
+
+    #inicio {
+        padding: 24px 20px 80px 20px;
+    }
+
+    #clinica, #farmacia, #duvidas {
+        padding: 64px 20px;
+    }
+
+    .botao, .botao-transparente {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 16px 10px;
+    }
+
+    header nav a {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    #inicio {
+        padding: 16px 10px 64px 10px;
+    }
+
+    h1, h2 {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .paragrafo {
+        font-size: 14px;
+        margin-bottom: 16px;
+        padding-bottom: 5px;
+    }
+
+    .botao, .botao-transparente {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 32px 10px;
+        gap: 40px;
+    }
+
+    footer p {
+        max-width: 100%;
+    }
+
+    footer nav a {
+        font-size: 14px;
+    }
+
+    #copyrigth {
+        padding: 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {
+    header {
+        padding: 16px 5px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav a {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    #inicio {
+        padding: 16px 5px 64px 5px;
+    }
+
+    h1, h2 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .paragrafo {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+
+    .botao, .botao-transparente {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    footer {
+        padding: 24px 5px;
+        gap: 20px;
+    }
+
+    footer p {
+        max-width: 100%;
+    }
+
+    footer nav a {
+        font-size: 12px;
+    }
+
+    #copyrigth {
+        padding: 12px;
+        font-size: 12px;
+    }
+}
